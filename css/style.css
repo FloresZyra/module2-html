@@ -4,6 +4,44 @@
     padding: 0;
     }
 
+.dark-mode{
+    background-color: black;
+    background-image: url("../images/darkmodeBG.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 20px;
+    color: white;
+
+}
+
+.dark-mode .card{
+    background-color: grey;
+}
+
+.dark-mode button{
+    padding: 10px;
+    background-color: rgb(194, 31, 113);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-mode th {
+    background-color: rgb(194, 31, 113);
+    color: white;
+
+}
+
+.dark-mode #ProfilePic{
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(194, 31, 113);
+    width: 150px;
+    height: 200px;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -91,6 +129,10 @@ form {
     gap: 10px;
     }
 
+.hidden {
+    display:none;
+}
+
 input, textarea {
     padding: 8px;
     border: 1px solid #ccc;
@@ -108,6 +150,7 @@ button {
 button:hover {
     background-color: rgb(147, 190, 224);
     }
+
 
 #Copyright{
         text-align: right;
