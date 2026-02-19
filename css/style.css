@@ -4,6 +4,10 @@
     padding: 0;
     }
 
+.card button {
+    text-align: right;
+}
+
 .dark-mode{
     background-color: black;
     background-image: url("../images/darkmodeBG.avif");
